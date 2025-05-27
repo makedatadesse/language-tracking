@@ -1331,7 +1331,7 @@ st_write(som_GIS, "GIS_som_file.gpkg", layer = "somali_GIS_layer", driver = "GPK
 
 st_write(
   som_GIS,
-  dsn = "~/Documents/0Class/FINAL PROJECT/GIS_som_file.gpkg",
+  dsn = "GIS_som_file.gpkg",
   layer = "somali_GIS_layer",
   driver = "GPKG"
 )
