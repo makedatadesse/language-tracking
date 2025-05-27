@@ -6,7 +6,7 @@ library(dplyr)
 library(sf)
 
 # Census Key
-census_api_key("3c9e13d499f9ed0c1d8f1c848dd6919fc443afad")
+census_api_key("YOUR-API-KEY-HERE")
 
 # Somali population variables (using ancestry for population)
 variables <- c(
@@ -66,7 +66,7 @@ tract_data_2021 <- tract_data_2021 %>% select(-c(B04006_001M, B04006_082M, C1600
 
 
 ## Loading nhgis crosswalk data: 2020 Tracts to 2010 Tracts (ALL US)
-crosswalk <- read.csv("~/Documents/0Class/DataAnalysis/USnhgis_tr2020_tr2010/nhgis_tr2020_tr2010.csv")
+crosswalk <- read.csv("nhgis_tr2020_tr2010.csv")
 
 
 
@@ -111,7 +111,7 @@ crosswalked_data <- crosswalked_data %>%
   mutate(across(where(is.numeric), ~ ifelse(. == 0, 0, round(., 4))))
 
 ## save + export
-write_csv(crosswalked_data, "~/Documents/0Class/FINAL PROJECT/crosswalked.csv")
+write_csv(crosswalked_data, "crosswalked.csv")
 
 
 
