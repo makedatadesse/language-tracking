@@ -13,8 +13,8 @@ library(scales)
 # Census Key
 census_api_key("YOUR-API-KEY-HERE")
 
-# load in crosswalked data
-crosswalk <- read_csv("~/Documents/0Class/FINAL PROJECT/crosswalked.csv")
+# load in crosswalked data (NHGIS 2020 Tracts to 2010 Tracts crosswalk csv file)
+crosswalk <- read_csv("crosswalked.csv")
 
 # Separate dataframes for each county:
 crosswalk <- crosswalk %>%
