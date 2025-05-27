@@ -82,7 +82,7 @@ king <- king %>% select(-c(B04006_001M, B04006_082M, C16001_036M, C16001_037M, C
 ## Loading in 2017-2021 crosswalked data
 ```{r}
 # load in crosswalked data
-crosswalk <- read_csv("~/Documents/0Class/FINAL PROJECT/crosswalked.csv")
+crosswalk <- read_csv("crosswalked.csv")
 
 # Separate dataframes for each county:
 crosswalk <- crosswalk %>%
