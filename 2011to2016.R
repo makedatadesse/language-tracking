@@ -11,7 +11,7 @@ library(scales)
 # Census Key
 census_api_key("YOUR-API-KEY-HERE")
 
-# Somali population variables (using ancestry for population)
+# Somali population variables (using ancestry for population measure)
 variables <- c(
   total = "B04006_001E", # Total population
   som_total = "B04006_082E", # Somali alone
