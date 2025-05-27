@@ -11,7 +11,7 @@ library(ggplot2)
 library(scales)
 
 # Census Key
-census_api_key("3c9e13d499f9ed0c1d8f1c848dd6919fc443afad")
+census_api_key("YOUR-API-KEY-HERE")
 
 # load in crosswalked data
 crosswalk <- read_csv("~/Documents/0Class/FINAL PROJECT/crosswalked.csv")
