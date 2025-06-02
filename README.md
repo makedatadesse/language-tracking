@@ -33,3 +33,8 @@ Crosswalking.R – crosswalking of needed variables and tracts using NHGIS file
 FullCodeBook.Rmd – full cleaned codebook for analysis and visualization in its entirety. Pulled from for ArcGIS  
 crosswalked.csv – updated crosswalked tracts with needed variables  
 nhgis_tr2020_tr2010.csv – csv file from [NHGIS](https://www.nhgis.org/geographic-crosswalks)  
+
+## ArcGIS Hotspot Map 
+_county specific maps can be found in published paper_
+
+![National Tract Level Hotspot Map where Somali Concentration exceeds the county average. National map is predominantly gray with tracts that have a greater somali concentration that their countys average are highlighted in yellow to red, red being the highest. To the left are three county's that are zoomed in and are most if not fully red. In order these county's are Hennepin County, Franklin County, and King County.](https://github.com/user-attachments/assets/9a77a877-16be-4757-8e2e-e3f3bfe99c1f)
