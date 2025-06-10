@@ -35,6 +35,11 @@ crosswalked.csv – updated crosswalked tracts with needed variables
 nhgis_tr2020_tr2010.csv – csv file from [NHGIS](https://www.nhgis.org/geographic-crosswalks)  
 
 ## ArcGIS Hotspot Map 
-_county specific maps can be found in published paper_
+_more county specific maps can be found in published paper_
+
+<img width="887" alt="Screenshot 2025-06-10 at 10 40 47 AM" src="https://github.com/user-attachments/assets/fabd3144-8b10-43af-962b-68746a35c195" />  
+
+_Hennepin County_
 
 ![National Tract Level Hotspot Map where Somali Concentration exceeds the county average. National map is predominantly gray with tracts that have a greater somali concentration that their countys average are highlighted in yellow to red, red being the highest. To the left are three county's that are zoomed in and are most if not fully red. In order these county's are Hennepin County, Franklin County, and King County.](https://github.com/user-attachments/assets/9a77a877-16be-4757-8e2e-e3f3bfe99c1f)
+_National Hotspot Analysis_
